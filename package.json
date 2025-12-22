@@ -1,0 +1,10 @@
+{
+  "name": "money-manners-guide",
+  "version": "1.0.0",
+  "description": "Money Manners Guide - Financial Etiquette Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://moneymmannersguide.com/</loc>
+        <lastmod>2025-11-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/home.html"/>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1554224155-6726b3ff858f</image:loc>
+            <image:title>Money Manners Guide Homepage</image:title>
+            <image:caption>Financial etiquette and regulations guide</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/home.html</loc>
+        <lastmod>2025-11-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/home.html"/>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/tipping-etiquette.html</loc>
+        <lastmod>2025-11-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/tipping-etiquette.html"/>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1556742049-0cfed4f6a45d</image:loc>
+            <image:title>Tipping Etiquette Guide</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/tax-basics.html</loc>
+        <lastmod>2025-10-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/tax-basics.html"/>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1554224155-6726b3ff858f</image:loc>
+            <image:title>Tax Obligations Guide</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/banking-rules.html</loc>
+        <lastmod>2025-09-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/banking-rules.html"/>
+        <image:image>
+            <image:loc>https://images.unsplash.com/photo-1601597111158-2fceff292cdc</image:loc>
+            <image:title>Banking Regulations Guide</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/about.html</loc>
+        <lastmod>2025-08-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/about.html"/>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/contact.html</loc>
+        <lastmod>2025-08-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/contact.html"/>
+    </url>
+    <url>
+        <loc>https://moneymmannersguide.com/policy.html</loc>
+        <lastmod>2025-10-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://moneymmannersguide.com/policy.html"/>
+    </url>
+</urlset>

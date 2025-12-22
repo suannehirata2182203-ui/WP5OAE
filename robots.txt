@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moneymmannersguide.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /*.json$
+
+Host: https://moneymmannersguide.com

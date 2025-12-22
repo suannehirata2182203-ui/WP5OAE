@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practical guide to financial etiquette and money laws. Real experiences and tips on tipping, taxes, and banking regulations from someone who learned the hard way.">
+    <meta name="keywords" content="financial etiquette, tipping guide, tax basics, banking regulations, money laws, financial tips">
+    <meta name="author" content="Marcus Webb">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Money Manners Guide - Financial Etiquette & Laws">
+    <meta property="og:description" content="Practical guide to financial etiquette and money laws based on real experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://moneymmannersguide.com/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://moneymmannersguide.com/">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2489/2489756.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Franklin:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Money Manners Guide | Financial Etiquette & Laws</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Money Manners Guide",
+        "url": "https://moneymmannersguide.com/",
+        "description": "Practical guide to financial etiquette and money laws",
+        "author": {
+            "@type": "Person",
+            "name": "Marcus Webb"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Money Manners Guide",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://cdn-icons-png.flaticon.com/512/2489/2489756.png"
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <span class="loader-text">Loading</span>
+        </div>
+    </div>
+
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h3>Your Privacy Matters</h3>
+                <p>We use cookies to enhance your browsing experience and analyze site traffic. Choose your preference below.</p>
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn accept" id="cookieAccept">Accept All</button>
+                <button class="cookie-btn decline" id="cookieDecline">Decline</button>
+                <button class="cookie-btn settings" id="cookieSettings">Settings</button>
+            </div>
+        </div>
+        <div class="cookie-settings-panel" id="cookieSettingsPanel">
+            <div class="cookie-option">
+                <label>
+                    <input type="checkbox" checked disabled>
+                    <span>Essential Cookies (Required)</span>
+                </label>
+            </div>
+            <div class="cookie-option">
+                <label>
+                    <input type="checkbox" id="analyticsCookies">
+                    <span>Analytics Cookies</span>
+                </label>
+            </div>
+            <div class="cookie-option">
+                <label>
+                    <input type="checkbox" id="marketingCookies">
+                    <span>Marketing Cookies</span>
+                </label>
+            </div>
+            <button class="cookie-btn save" id="cookieSave">Save Preferences</button>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="home.html" class="logo">
+                <span class="logo-icon">$</span>
+                <span class="logo-text">Money<br>Manners</span>
+            </a>
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger-menu" id="burgerMenu" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu-content">
+            <nav aria-label="Mobile navigation">
+                <ul class="mobile-nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="has-submenu">
+                        <span class="submenu-title">Articles</span>
+                        <ul class="submenu">
+                            <li><a href="tipping-etiquette.html">The Art of Tipping</a></li>
+                            <li><a href="tax-basics.html">Tax Obligations Explained</a></li>
+                            <li><a href="banking-rules.html">Banking Regulations Guide</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="policy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <span class="hero-tag">Personal Finance Guide</span>
+                <h1>Navigating Money Laws<br>Doesn't Have to Be Confusing</h1>
+                <p class="hero-intro">After spending three years sorting through confusing financial regulations and making plenty of mistakes along the way, I decided to document everything I learned. This isn't legal advice — it's one person's journey through the maze of tipping customs, tax obligations, and banking rules.</p>
+                <div class="hero-author">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Marcus Webb - Site Author" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-name">Marcus Webb</span>
+                        <span class="author-role">Finance Enthusiast & Researcher</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-text">
+                        <h2>Why I Started This Guide</h2>
+                        <p>Let me be honest with you — I started this project after an embarrassing incident at a restaurant in Miami. I had just moved from the UK and had no idea that the 15% tip I left was considered insulting by American standards. The server actually followed me outside to ask if something was wrong with the food.</p>
+                        <p>That moment stuck with me. I realized that financial etiquette and regulations vary wildly, and there's no single resource that explains it all in plain English. So I spent the last two years researching, interviewing accountants, reading through actual legislation, and yes — making more mistakes so you don't have to.</p>
+                        <p>Everything you'll find here comes from real experience, backed by official sources. No corporate speak, no sponsored content. Just straight talk about money stuff.</p>
+                    </div>
+                    <div class="intro-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">47</span>
+                            <span class="stat-label">Topics Covered</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">2.5</span>
+                            <span class="stat-label">Years of Research</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">12k+</span>
+                            <span class="stat-label">Monthly Readers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="articles-section" id="articles">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Featured Guides</span>
+                    <h2>Start With These Three Topics</h2>
+                    <p>These are the areas where I see the most confusion — and where mistakes can actually cost you money or social capital.</p>
+                </div>
+                
+                <div class="articles-grid">
+                    <article class="article-card featured">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop" alt="Restaurant table with bill and tip money" loading="lazy">
+                            <span class="image-credit">Photo: Unsplash / Blake Wisz</span>
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Etiquette</span>
+                            <h3><a href="tipping-etiquette.html">The Art of Tipping: When, How Much, and Why It Matters</a></h3>
+                            <p>From restaurants to hair salons, delivery drivers to hotel staff — tipping rules are unwritten but absolutely real. I break down the actual expectations across different industries and explain the math behind gratuity.</p>
+                            <div class="article-meta">
+                                <span class="read-time">8 min read</span>
+                                <span class="update-date">Updated Nov 2025</span>
+                            </div>
+                            <a href="tipping-etiquette.html" class="read-more">Read Full Guide</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop" alt="Tax documents and calculator on desk" loading="lazy">
+                            <span class="image-credit">Photo: Unsplash / Scott Graham</span>
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Taxes</span>
+                            <h3><a href="tax-basics.html">Tax Obligations: What You Actually Need to Know</a></h3>
+                            <p>Tax law is designed to be confusing — I'm convinced of it. But there are basic things everyone should understand about their obligations, deadlines, and the penalties you face for messing up.</p>
+                            <div class="article-meta">
+                                <span class="read-time">12 min read</span>
+                                <span class="update-date">Updated Oct 2025</span>
+                            </div>
+                            <a href="tax-basics.html" class="read-more">Read Full Guide</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card offset">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=600&h=400&fit=crop" alt="Bank vault door and safety deposit boxes" loading="lazy">
+                            <span class="image-credit">Photo: Unsplash / Jason Leung</span>
+                        </div>
+                        <div class="article-content">
+                            <span class="article-category">Banking</span>
+                            <h3><a href="banking-rules.html">Banking Regulations: Protecting Your Money</a></h3>
+                            <p>Banks aren't just holding your money — they're following thousands of rules about how they can use it, lend it, and protect it. Here's what that means for your accounts and deposits.</p>
+                            <div class="article-meta">
+                                <span class="read-time">10 min read</span>
+                                <span class="update-date">Updated Sep 2025</span>
+                            </div>
+                            <a href="banking-rules.html" class="read-more">Read Full Guide</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Got a Question I Haven't Covered?</h2>
+                    <p>I'm always looking to expand this resource. If there's a financial rule or etiquette question that's been bugging you, drop me a line. I might turn it into a full article.</p>
+                    <a href="contact.html" class="cta-button">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="home.html" class="footer-logo">
+                        <span class="logo-icon">$</span>
+                        <span>Money Manners Guide</span>
+                    </a>
+                    <p>A personal project dedicated to demystifying financial etiquette and regulations. No corporate backing, no hidden agenda — just practical information gathered through research and lived experience.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Articles</h4>
+                        <ul>
+                            <li><a href="tipping-etiquette.html">Tipping Etiquette</a></li>
+                            <li><a href="tax-basics.html">Tax Obligations</a></li>
+                            <li><a href="banking-rules.html">Banking Regulations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Site</h4>
+                        <ul>
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:marcus@moneymmannersguide.com">marcus@moneymmannersguide.com</a></li>
+                            <li>Austin, Texas, USA</li>
+                            <li>Est. 2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Money Manners Guide. All rights reserved.</p>
+                <p class="disclaimer">This site provides general information only and does not constitute legal, tax, or financial advice. Always consult qualified professionals for specific guidance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
